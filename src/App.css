@@ -1,38 +1,142 @@
-.App {
+/* Reset some default styles and apply a background color to the body */
+body {
+  margin: 10;
+  padding: 10;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/*Style heading 1*/
+h1 {
+  background-color: #bf5700;
+  color: #fff;
   text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Style heading 2*/
+h2 {
+  background-color: #fff;
+  color: #bf5700;
+  text-align: center;
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4 {
+  background-color: #fff;
+  color: #4c4947;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  text-indent: 25px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #bf5700;
+  padding: 0rem;
+  margin-left: 2%;
+  font-size: 1.5rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+
+/* Style a simple input field */
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 25%;
+  margin-bottom: 2%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+
+}
+
+.formfield {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+  padding: 0.5 rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 50%;
+  margin-left: -32px;
+  margin-right: 50%;
+  height: 100px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style a simple button with a background color and hover effect */
+button {
+  background-color: #bf5700;
+  color: #ffffff;
+  border: 3px solid #000;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 2%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #bf5700;
+}
+
+/*Add some extra style for buttons of type Share*/
+button[type="Share"] {
+  float: right;
+  margin-right: 5%;
+}
+
+li {
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  margin-left: 3.5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* Style images */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
 }
