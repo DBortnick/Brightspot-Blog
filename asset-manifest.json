@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Brightspot-Blog/static/css/main.5f0994b8.css",
-    "main.js": "/Brightspot-Blog/static/js/main.e3f21aff.js",
+    "main.css": "/Brightspot-Blog/static/css/main.c834ab7e.css",
+    "main.js": "/Brightspot-Blog/static/js/main.77df72c8.js",
     "static/js/787.f30a0115.chunk.js": "/Brightspot-Blog/static/js/787.f30a0115.chunk.js",
     "static/media/Whitetail.jpeg": "/Brightspot-Blog/static/media/Whitetail.ca94641cd47ba5cd7d51.jpeg",
     "index.html": "/Brightspot-Blog/index.html",
-    "main.5f0994b8.css.map": "/Brightspot-Blog/static/css/main.5f0994b8.css.map",
-    "main.e3f21aff.js.map": "/Brightspot-Blog/static/js/main.e3f21aff.js.map",
+    "main.c834ab7e.css.map": "/Brightspot-Blog/static/css/main.c834ab7e.css.map",
+    "main.77df72c8.js.map": "/Brightspot-Blog/static/js/main.77df72c8.js.map",
     "787.f30a0115.chunk.js.map": "/Brightspot-Blog/static/js/787.f30a0115.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f0994b8.css",
-    "static/js/main.e3f21aff.js"
+    "static/css/main.c834ab7e.css",
+    "static/js/main.77df72c8.js"
   ]
 }
