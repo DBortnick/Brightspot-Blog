@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import firebase from 'firebase/app';
 import {ref, push } from 'firebase/database';
 import database from './FireConfig.js';
 
@@ -18,6 +17,7 @@ const CommentForm = ({ addComment }) => {
     const newComment = {
       name,
       comment,
+      likes: 0,
     };
     // Call the addComment function to add the new comment
     addComment(newComment);

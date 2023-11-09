@@ -120,6 +120,35 @@ button[type="Share"] {
   margin-right: 5%;
 }
 
+/*Add some extra style for buttons of type Like*/
+/* .heart-shape {
+  background: #bc3366 none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+} */
+
+/*make all buttons of class heart-shape super small so they are hidden behind the heart*/
+.heart-shape {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #bf5700;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.heart-shape:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  color: #bf5700;
+}
+
+
 li {
   font-size: 1.2rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
