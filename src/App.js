@@ -24,10 +24,6 @@ class App extends Component {
   // A function to share the blog post by coping the URL to the clipboard
   // Tell the user that the link has been copied
   sharePost = () => {
-    // const url = window.location.href;
-    // navigator.clipboard.writeText(url);
-    // alert('Link copied to clipboard!');
-
     navigator.clipboard.writeText(window.location.href).then(function(x) {
       alert("Link copied to clipboard: " + window.location.href);
     });
